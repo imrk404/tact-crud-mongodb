@@ -1,0 +1,33 @@
+<html><head>
+    <title>Create</title>
+    <style>
+    body { background-color: powderblue;}
+        h2 {color: blue;}
+        h3 {color: blue;}
+        /* h3 {text-align: center;} */
+        #button1{
+            border-radius: 20px;
+            padding: 10px 20px;
+            background: dodgerblue;
+            color: white;
+            margin-top: 20px;
+            border: none;
+            margin-left: 50px;
+            outline: none;
+        }  
+        </style>
+</head>
+    <body>
+        <form action="/create" method="POST">
+            <h2>Add New</h2>
+            <h3>AUTHOR -</h3>
+            <input type="text" name="author">
+            <h3>QUOTE :</h3>
+            <textarea type="text" name="quote"></textarea><br>
+            <br><input type="submit" value="submit" id="button1"><br>
+            
+            <br><a href="/">Exit</a><br>
+            <a href="/read">View List</a><br>
+        </form>
+    </body>
+</html>

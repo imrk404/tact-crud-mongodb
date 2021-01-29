@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Update</title>
+    <style>
+        body { background-color: powderblue;}
+        h3 {color: blue;}
+        /* h3 {text-align: center;} */
+        #button1{
+            border-radius: 20px;
+            padding: 10px 20px;
+            background: dodgerblue;
+            color: white;
+            margin-top: 20px;
+            border: none;
+            margin-left: 50px;
+            outline: none;
+        }  
+        
+       
+
+    </style>
+</head>
+    <body>
+        <form action="/update" method="POST">
+            <h3>AUTHOR -</h3>
+            <input type="text" name="author">
+            <h3>Quote -</h3>
+            <textarea type="text" name="quote"></textarea><br>
+            <br><input type="submit" value="submit" id="button1"><br>
+            <br><a href="/">Exit</a><br>
+            <br><a href="/read">View List</a><br>
+        </form>
+    </body>
+</html>

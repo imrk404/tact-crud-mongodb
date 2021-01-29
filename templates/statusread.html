@@ -1,0 +1,14 @@
+<head>
+        <style>
+            body { background-color: powderblue;}
+        </style>
+        <title>Saved Details</title>
+    </head>
+<body>
+    <h1>All Saved List</h1><br>
+        {% for item in get %}
+        <br><h3>author :{{item._id}}</h3>
+        <h2>quote : {{item.names}}</h2><br>
+        {% endfor %}
+        <h3><a href="/">Exit</a><br></h3>
+</body>
